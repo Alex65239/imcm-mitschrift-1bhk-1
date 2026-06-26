@@ -29,8 +29,8 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
  
 **1. Elektrizität / Kupferdraht (Ethernet)**
  
-- billig
-- einfach in der Verarbeitung
+-*billig
+*-*infach in der Verarbeitung
 - weit verbreitet
 - hohe Verluste über mittlere und lange Distanzen (hunderte Meter)
  
@@ -65,7 +65,8 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 ### Teil 5 - The Internet: HTTP & HTML
  
 - http steht für _Hypertext Transport Protocol_. HTTP arbeitet nach dem Client-Server-Prinzip:
- 
+ -
+ /
   - ein Web-Client (Browser) sendet eine Anfrage (_request_) an einen Web-Server
   - der Web-Server verarbeitet die Anfrage und sendet eine Antwort (_response_) zurück. Die Antwort u.a. einen sogenannten [HTTP-Statuscode](https://de.wikipedia.org/wiki/HTTP-Statuscode), der Auskunft über die Verarbeitung der Anfrage gibt.
  
@@ -97,8 +98,9 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 ---
  
 ### Ergänzung: Überblick über das TCP/IP-Modell
- 
-Im TCP/IP-Modell übernimmt jede Schicht eine eigene Aufgabe (merke: *divide and conquer*), hat einen eigenen Namen für die versendeten Dateneinheiten und einen eigenen Adressierungsmechanismus:
+ +
+Im++
+TCP/IP-Modell übernimmt jede Schicht eine eigene Aufgabe (merke: *divide and onquer*), hat einen eigenen Namen für die versendeten Dateneinheiten und einen eigenen Adressierungsmechanismus:
  
 | Schicht | Protokoll | Dateneinheit | Adressen |
 | --- | --- | --- | --- |
@@ -129,7 +131,7 @@ Die zentralen Bausteine von HTML sind die sogenannten **Tags**. Tags können mit
 Ein HTML-Dokument ist hierachisch aufgebaut.
 Wir sprechen dabei auch vom **DOM-Tree** (*Document Object Model*) - d.h., jedes HTML-Dokument ist aufgebaut wie ein Baum. Die Wurzel des Baumes ist der `html`-Tag. Auf der nächsten Ebene gabelt sich der Baum in `head`und `body`.Im `head`befinden sich in erster Linie Metadaten zu dem Dokument, wie z.B: der Titel der Seite, die Sprache, die Zeichenkodierung, usw. Im `body`befinden sich die eigentlichen Inhalte der Seite, z.B. Text, Bilder, Videos, Links, usw.
 
-![DOM-Tree](/assets/dom-tree.png)
+![DOM-Tree](/assets/dom-tree.png )
 
 
  
